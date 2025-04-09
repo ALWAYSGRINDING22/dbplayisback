@@ -1,4 +1,4 @@
-const validCodes = ["ITSBACK"];
+const validCodes = ["ITBACK"];
 
 if (window.location.pathname.endsWith("blocked.html") && localStorage.getItem("accessGranted") !== "true") {
   showAuthDiv();
